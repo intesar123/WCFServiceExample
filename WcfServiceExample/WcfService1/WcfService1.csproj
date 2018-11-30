@@ -89,6 +89,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FirstWebService.svc" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Service1.svc" />
@@ -97,6 +98,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FirstWebService.svc.cs">
+      <DependentUpon>FirstWebService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="IFirstWebService.cs" />
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>

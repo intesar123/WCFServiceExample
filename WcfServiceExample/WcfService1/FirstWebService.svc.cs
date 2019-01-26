@@ -13,7 +13,7 @@ namespace WcfService1
     {
         public string Message()
         {
-            return "This is my first web service";
+            return "This is my first web service"; //ServiceSecurityContext.Current.PrimaryIdentity.Name.ToString();
         }
     }
 }

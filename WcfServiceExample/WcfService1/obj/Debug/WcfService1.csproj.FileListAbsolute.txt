@@ -52,8 +52,8 @@ E:\myGit\WCFServiceExample\WcfServiceExample\WcfService1\bin\Microsoft.AI.Server
 E:\myGit\WCFServiceExample\WcfServiceExample\WcfService1\bin\Microsoft.AI.Web.xml
 E:\myGit\WCFServiceExample\WcfServiceExample\WcfService1\bin\Microsoft.AI.WindowsServer.xml
 E:\myGit\WCFServiceExample\WcfServiceExample\WcfService1\bin\Microsoft.ApplicationInsights.xml
-E:\myGit\WCFServiceExample\WcfServiceExample\WcfService1\obj\Debug\WcfService1.csprojAssemblyReference.cache
 E:\myGit\WCFServiceExample\WcfServiceExample\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
 E:\myGit\WCFServiceExample\WcfServiceExample\WcfService1\obj\Debug\WcfService1.csproj.CopyComplete
 E:\myGit\WCFServiceExample\WcfServiceExample\WcfService1\obj\Debug\WcfService1.dll
 E:\myGit\WCFServiceExample\WcfServiceExample\WcfService1\obj\Debug\WcfService1.pdb
+E:\myGit\WCFServiceExample\WcfServiceExample\WcfService1\obj\Debug\WcfService1.csprojAssemblyReference.cache

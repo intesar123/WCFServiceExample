@@ -13,7 +13,7 @@ namespace WebApplication2.FirstWCFService {
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="FirstWCFService.IFirstWebService")]
-    public interface IFirstWebService {
+    internal interface IFirstWebService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IFirstWebService/Message", ReplyAction="http://tempuri.org/IFirstWebService/MessageResponse")]
         string Message();
@@ -23,12 +23,12 @@ namespace WebApplication2.FirstWCFService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IFirstWebServiceChannel : WebApplication2.FirstWCFService.IFirstWebService, System.ServiceModel.IClientChannel {
+    internal interface IFirstWebServiceChannel : WebApplication2.FirstWCFService.IFirstWebService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class FirstWebServiceClient : System.ServiceModel.ClientBase<WebApplication2.FirstWCFService.IFirstWebService>, WebApplication2.FirstWCFService.IFirstWebService {
+    internal partial class FirstWebServiceClient : System.ServiceModel.ClientBase<WebApplication2.FirstWCFService.IFirstWebService>, WebApplication2.FirstWCFService.IFirstWebService {
         
         public FirstWebServiceClient() {
         }

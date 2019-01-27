@@ -37,10 +37,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/20/2019 12:09:33</publishTime>
     </File>
     <File Include="bin/WcfService1.dll">
-      <publishTime>01/27/2019 23:21:50</publishTime>
+      <publishTime>01/27/2019 23:35:54</publishTime>
     </File>
     <File Include="bin/WcfService1.pdb">
-      <publishTime>01/27/2019 23:21:50</publishTime>
+      <publishTime>01/27/2019 23:35:54</publishTime>
     </File>
     <File Include="FirstWebService.svc">
       <publishTime>01/20/2019 12:09:32</publishTime>
